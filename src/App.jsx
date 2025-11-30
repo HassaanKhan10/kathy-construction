@@ -1,6 +1,6 @@
 import React from "react";
-import 'src/app.css';
-import 'src/index.css';
+import './styles/app.css'; 
+import './styles/index.css';
 
 function Navbar() {
   return (

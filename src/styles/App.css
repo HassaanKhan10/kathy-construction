@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 body {
     scroll-behavior: smooth;
@@ -6,8 +7,8 @@ body {
 
 :root {
     --dark: #121212;
-    --primary: #003973;
-    --secondary: #444444;
+    --primary: #FED403;
+    --secondary: #9b9b9b;
 
     --danger: #e02419;
 
@@ -25,6 +26,11 @@ body {
     /* shadow */
     --shadow-3d: 0px 3px 0px 0px #00000014;
     --shadow: 0px 4px 6px -2px #10182808, 0px 12px 16px -4px #10182814;
+}
+
+
+.color-gray{
+    color: var(--white-light);
 }
 
 img {
@@ -54,7 +60,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 600;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700 !important;
     margin-bottom: 0;
     --bs-heading-color: var(--dark);
 }
@@ -65,7 +72,8 @@ p {
 
 h1,
 .font-h1 {
-    font-size: 52px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 80px;
 }
 
 h2,
@@ -103,13 +111,14 @@ h6,
     line-height: normal;
     border: none;
     border-radius: 8px;
+    white-space: nowrap;
     transition: all 0.25s ease;
 }
 
-.btn:active {
+/* .btn:active {
     transform: scale(0.95);
     border-color: transparent;
-}
+} */
 
 .btn.btn-sm {
     padding: 7px 16px;
@@ -130,13 +139,13 @@ h6,
 }
 
 .btn.btn-primary {
-    color: #fff;
-    background-color: var(--blue);
+    color: #121212;
+    background-color: var(--primary);
 }
 
 .btn.btn-primary:hover {
-    color: #fff;
-    background-color: #1E5FB9;
+       color: #121212;
+    background-color: var(--primary);
 }
 
 .btn.btn-secondary {
@@ -157,8 +166,8 @@ h6,
 
 .btn.btn-warning,
 .badge.badge-warning {
-    background-color: #ffd54d;
-    color: var(--primary);
+    background-color: var(--primary);
+    color: var(--dark);
 }
 
 .btn.btn-warning:hover {
@@ -184,6 +193,10 @@ h6,
 
 .fs-20 {
     font-size: 20px;
+}
+
+.fs-24 {
+    font-size: 24px;
 }
 
 .fs-56 {
@@ -220,6 +233,11 @@ h6,
     margin-top: 30px;
 }
 
+.mt-100 {
+    margin-top: 100px;
+}
+
+
 .font-poppins {
     font-family: "Poppins", sans-serif;
 }
@@ -253,7 +271,8 @@ h6,
 }
 
 .bg-overly {
-    background: linear-gradient(90deg, #091b32 35%, rgba(5, 32, 62, 0) 100%);
+    background: linear-gradient(90deg, #121212 50%, rgba(5, 32, 62, 0) 100%);
+    opacity: 0.85;
 }
 
 .gap-20 {
@@ -265,7 +284,7 @@ h6,
 }
 
 .ratio-9x16 {
-    padding-bottom: 150.78%;
+   padding-bottom: 124%;
     position: relative;
 }
 

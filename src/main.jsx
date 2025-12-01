@@ -1,5 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'swiper/css'; // Swiper CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 // import 'aos/dist/aos.css'; // AOS animation CSS
 // import '@fortawesome/fontawesome-free/css/all.min.css'; 
 
@@ -12,4 +15,5 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
   </StrictMode>,
+  
 )

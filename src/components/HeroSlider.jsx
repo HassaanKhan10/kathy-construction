@@ -24,7 +24,7 @@ const HeroSlider = () => {
                 <div className="card d-flex flex-column gap-3 h-100">
                   <div>
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
-                      <img className="position-absolute w-100 h-100 object-fit-cover" src="./public/assets/images/card-1.png" alt="Card-image" />
+                      <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-1.png" alt="Card-image" />
                     </div>
                     <div className="p-4">
                       <h4>Efficient foundation leveling</h4>
@@ -37,7 +37,7 @@ const HeroSlider = () => {
                 <div className="card d-flex flex-column gap-3 h-100">
                   <div>
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
-                      <img className="position-absolute w-100 h-100 object-fit-cover" src="./public/assets/images/card-2.png" alt="Card-image" />
+                      <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-2.png" alt="Card-image" />
                     </div>
                     <div className="p-4">
                       <h4>Secure anchoring systems</h4>
@@ -50,7 +50,7 @@ const HeroSlider = () => {
                 <div className="card d-flex flex-column gap-3 h-100">
                   <div>
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
-                      <img className="position-absolute w-100 h-100 object-fit-cover" src="./public/assets/images/card-3.png" alt="Card-image" />
+                      <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-3.png" alt="Card-image" />
                     </div>
                     <div className="p-4">
                       <h4>Skirting & utility connections</h4>
@@ -63,7 +63,7 @@ const HeroSlider = () => {
                 <div className="card d-flex flex-column gap-3 h-100">
                   <div>
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
-                      <img className="position-absolute w-100 h-100 object-fit-cover" src="./public/assets/images/card-4.png" alt="Card-image" />
+                      <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-4.png" alt="Card-image" />
                     </div>
                      <div className="p-4">
                       <h4>Inspection-ready installations</h4>

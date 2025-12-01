@@ -44,7 +44,7 @@ function Navbar() {
 
       <section id="hero-section" className="hero-section d-flex align-items-center position-relative">
         <div className="bg-overly w-100 h-100 position-absolute top-0 start-0 z-1 pe-none" />
-        <img className="w-100 h-100 object-fit-cover object-position position-absolute top-0 start-0 pe-none" src="./public/assets/images/hero-2.png" alt="banner-image" />
+        <img className="w-100 h-100 object-fit-cover object-position position-absolute top-0 start-0 pe-none" src="/assets/images/hero-2.png" alt="banner-image" />
         <div className="container position-relative z-2">
           <div className="row">
             <div data-aos="fade-right" data-aos-duration={500} className="col-12 col-lg-7">

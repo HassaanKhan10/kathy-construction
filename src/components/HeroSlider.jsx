@@ -10,7 +10,7 @@ const HeroSlider = () => {
           <div className="col-lg-12">
             <div className="d-flex flex-column justify-content-center align-items-center">
               <div id="services" className="badge badge-warning fw-semibold">SERVICES</div>
-              <h2 className="text-center pb-100  mt-4 ">IRC & HUD Installation Highlights</h2>
+              <h2 className="text-center pb-50  mt-4 ">Our Services</h2>
             </div>
             <Swiper
               modules={[Autoplay]}
@@ -27,7 +27,7 @@ const HeroSlider = () => {
                       <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-1.png" alt="Card-image" />
                     </div>
                     <div className="p-4">
-                      <h4>Efficient foundation leveling</h4>
+                      <h4>IRC & HUD Installation</h4>
                     </div>
                   </div>
                 </div>
@@ -40,7 +40,7 @@ const HeroSlider = () => {
                       <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-2.png" alt="Card-image" />
                     </div>
                     <div className="p-4">
-                      <h4>Secure anchoring systems</h4>
+                      <h4>Re-leveling</h4>
                     </div>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ const HeroSlider = () => {
                       <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-3.png" alt="Card-image" />
                     </div>
                     <div className="p-4">
-                      <h4>Skirting & utility connections</h4>
+                      <h4>Anchoring</h4>
                     </div>
                   </div>
                 </div>
@@ -66,7 +66,46 @@ const HeroSlider = () => {
                       <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-4.png" alt="Card-image" />
                     </div>
                      <div className="p-4">
-                      <h4>Inspection-ready installations</h4>
+                      <h4>Skirting</h4>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="card d-flex flex-column gap-3 h-100">
+                  <div>
+                    <div className="img-wrapper ratio-9x16 overflow-hidden">
+                      <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-2.png" alt="Card-image" />
+                    </div>
+                    <div className="p-4">
+                      <h4>Foundation setup</h4>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="card d-flex flex-column gap-3 h-100">
+                  <div>
+                    <div className="img-wrapper ratio-9x16 overflow-hidden">
+                      <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-2.png" alt="Card-image" />
+                    </div>
+                    <div className="p-4">
+                      <h4>Utility connections</h4>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+
+               <SwiperSlide>
+                <div className="card d-flex flex-column gap-3 h-100">
+                  <div>
+                    <div className="img-wrapper ratio-9x16 overflow-hidden">
+                      <img className="position-absolute w-100 h-100 object-fit-cover" src="/assets/images/card-4.png" alt="Card-image" />
+                    </div>
+                     <div className="p-4">
+                      <h4>Inspection assistance</h4>
                     </div>
                   </div>
                 </div>
@@ -75,7 +114,7 @@ const HeroSlider = () => {
             </Swiper>
 
             <div className="d-flex justify-content-center mt-5">
-              <a href="" className="btn btn-primary bg-dark text-white">Our Services</a>
+              <a href="" className="btn btn-primary bg-dark text-white">Explore Services</a>
             </div>
 
           </div>

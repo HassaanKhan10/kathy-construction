@@ -76,7 +76,7 @@ function Navbar() {
       <section style={{ background: '#121212' }} className="choose-section py-100">
         <div className="container">
           <div className="row align-items-center">
-            <h2 className="text-white text-center pb-100">Why Choose Us?</h2>
+            <h2 className="text-white text-center pb-50">Why Choose Us?</h2>
             <div className="col-lg-4">
               <div className="card d-flex flex-column gap-3 h-100 p-4">
                 <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

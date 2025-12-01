@@ -129,7 +129,7 @@ function Navbar() {
         <p className="mt-3 mt-md-4 text-white">
           Contact us today for a quote or consultation!
         </p>
-        <button className="btn btn-secondary mt-3 mt-md-4 mx-auto d-block" data-cal-namespace="30min" data-cal-link="ibad-khan/30min" data-cal-config="{&quot;layout&quot;:&quot;month_view&quot;}">
+        <button className="btn btn-secondary mt-3 mt-md-4 mx-auto d-block">
           Get a Quote
         </button>
       </div>

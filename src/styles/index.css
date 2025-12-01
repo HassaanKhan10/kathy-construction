@@ -217,7 +217,7 @@
 
 .cta-section .inner-wrapper {
     position: relative;
-    background-image: url(./public/assets/images/cta-image.png);
+    background-image: url(/assets/images/cta-image.png);
     background-repeat: no-repeat;
     border: 1px solid #9b9b9b;
     border-radius: 20px;

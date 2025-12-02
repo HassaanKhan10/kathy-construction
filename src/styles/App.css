@@ -271,8 +271,8 @@ h6,
 }
 
 .bg-overly {
-    background: linear-gradient(90deg, #121212 50%, rgba(5, 32, 62, 0) 100%);
-    opacity: 0.85;
+    background: #000000;
+    opacity: 0.60;
 }
 
 .gap-20 {

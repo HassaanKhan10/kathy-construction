@@ -8,13 +8,13 @@ function FooterSection() {
           <div className="row">
             <div className="col-12">
               <div className="d-flex flex-row flex-md-row flex-column align-items-center justify-content-between gap-3 text-md-start text-center">
-                <div>
+                <div data-aos-duration="1000"  data-aos="fade-right">
                   <h2>Ready to get started?</h2>
                   <p className="mt-3 mt-md-4">
                     Contact us today for a quote or consultation!
                   </p>
                 </div>
-                <div class="h-fit">
+                <div class="h-fit" data-aos-duration="1000"  data-aos="fade-left">
                   <a href="#contact" class="btn btn-secondary">
                     Contact us
                   </a>
@@ -31,9 +31,9 @@ function FooterSection() {
             <div className="col-12 d-flex flex-column gap-4">
               <div className="row align-items-center justify-content-between pb-50 row-gap-4">
                 <div className="col-12 col-xl-2 d-flex flex-column gap-4">
-                  <div className="img-wrapper mx-auto mx-xl-start">
+                  <div className="footer-logo mx-auto mx-xl-start">
                     <a href="/">
-                      <h6 className="text-white">Kathy's Logo</h6>
+                      <img src="/public/assets/images/logo.png" alt="" />
                     </a>
                   </div>
                 </div>

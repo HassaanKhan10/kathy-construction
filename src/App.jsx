@@ -22,16 +22,16 @@ function App() {
       {/* navbar section */}
       <NavbarSection />
 
-      <section className="hero-section d-flex align-items-center position-relative">
+      <section className="hero-section d-flex align-items-center position-relative overflow-hidden">
         <div className="bg-overly w-100 h-100 position-absolute top-0 start-0 z-1 pe-none" />
-        <img
+        <img data-aos-duration="1000"  data-aos="zoom-out-up"
           className="w-100 h-100 object-fit-cover object-position position-absolute top-0 start-0 pe-none"
           src="/assets/images/hero-2.png"
           alt="banner-image"
         />
         <div className="container position-relative z-2">
           <div className="row">
-            <div className="col-12 col-lg-7">
+            <div data-aos="fade-right" data-aos-duration="1000" className="col-12 col-lg-7">
               <h1 className="text-white">Kathy Construction</h1>
               <p className="text-white mt-3 fs-24">
                 Professional, Code-Compliant IRC & HUD Home Installation
@@ -50,7 +50,7 @@ function App() {
         </div>
       </section>
 
-      <section className="about-section container py-100">
+      <section className="about-section container py-100" data-aos-duration="1000"  data-aos="fade-up">
         <div className="row">
           <div className="col-12">
             <div className="col-12 col-lg-9">
@@ -75,9 +75,9 @@ function App() {
 
       <section style={{ background: "#121212" }} className="choose-section py-100" >
         <div className="container">
-          <h2 className="text-white text-center pb-50">Why Choose Us?</h2>
+          <h2 className="text-white text-center pb-50" data-aos-duration="1000"  data-aos="fade-down">Why Choose Us?</h2>
           <div className="row row-gap-4 align-items-center">
-            <div className="col-lg-4">
+            <div data-aos-duration="1000"  data-aos="zoom-out-up" className="col-lg-4">
               <div className="card d-flex flex-column gap-3 h-100 p-4">
                 <svg
                   width="50"
@@ -109,7 +109,7 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div data-aos-duration="1000"  data-aos="zoom-out-up" className="col-lg-4">
               <div className="card d-flex flex-column gap-3 h-100 p-4">
                 <svg
                   width="50"
@@ -170,7 +170,7 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div data-aos-duration="1000"  data-aos="zoom-out-up" className="col-lg-4">
               <div className="card d-flex flex-column gap-3 h-100 p-4">
                 <svg
                   width="50"

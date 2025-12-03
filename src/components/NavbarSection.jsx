@@ -4,11 +4,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function NavbarSection() {
   return (
     <div>
-      <section className="nav-section py-3 px-3 position-fixed top-0 start-0 end-0">
+      <section className="nav-section py-3 px-3 position-fixed top-0 start-0 end-0" data-aos-duration="300"  data-aos="fade-down">
         <div className="container py-2 py-lg-0">
           <nav className="navbar navbar-expand-lg py-0 ">
-            <a className="navbar-brand me-0 p-3" href="/">
-              <h6 className="text-white">Kathy's Logo</h6>
+            <a className="navbar-brand me-0 px-3" href="/">
+              <img src="/public/assets/images/logo.png" alt="logo" />
             </a>
             <button
               className="navbar-toggler border-0 px-0"
@@ -67,10 +67,10 @@ function NavbarSection() {
                   </a>
                 </li>
               </ul>
-              <div className="d-flex align-items-center gap-3 gap-xl-4 p-3 pt-lg-0 pb-2 pb-lg-0 ps-4 ps-lg-0 pe-lg-0 contact-info">
+              <div className="d-flex align-items-center">
                 <a
                   href="#about-us"
-                  className="btn btn-primary rounded-0 py-4 px-5"
+                  className="btn btn-primary me-3"
                 >
                   Get a Quote
                 </a>

@@ -8,13 +8,13 @@ const HeroSlider = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="d-flex flex-column justify-content-center align-items-center">
+            <div className="d-flex flex-column justify-content-center align-items-center" data-aos-duration="1000"  data-aos="fade-down">
               <div id="services" className="badge badge-warning fw-semibold">
                 SERVICES
               </div>
               <h2 className="text-center pb-50  mt-4 ">Our Services</h2>
             </div>
-            <Swiper
+            <Swiper data-aos-duration="1000"  data-aos="zoom-out-up"
               modules={[Autoplay]}
               autoplay={{ delay: 3000 }}
               loop={true}

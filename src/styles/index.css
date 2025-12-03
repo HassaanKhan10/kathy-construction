@@ -81,8 +81,9 @@
 }
 
 
-.nav-section .navbar-brand img {
-    max-width: 130px;
+.nav-section .navbar-brand img ,
+.footer-logo img {
+    max-width: 100px;
 }
 
 .nav-section .mail-icon-wrapper {

@@ -33,7 +33,7 @@ function FooterSection() {
                 <div className="col-12 col-xl-2 d-flex flex-column gap-4">
                   <div className="footer-logo mx-auto mx-xl-start">
                     <a href="/">
-                      <img src="/public/assets/images/logo.png" alt="" />
+                      <img src="assets/images/logo.png" alt="" />
                     </a>
                   </div>
                 </div>

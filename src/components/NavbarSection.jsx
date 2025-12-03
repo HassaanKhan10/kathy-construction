@@ -8,7 +8,7 @@ function NavbarSection() {
         <div className="container py-2 py-lg-0">
           <nav className="navbar navbar-expand-lg py-0 ">
             <a className="navbar-brand me-0 px-3" href="/">
-              <img src="/public/assets/images/logo.png" alt="logo" />
+              <img src="assets/images/logo.png" alt="logo" />
             </a>
             <button
               className="navbar-toggler border-0 px-0"

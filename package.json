@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  
   "dependencies": {
     "@fancyapps/ui": "^6.1.6",
     "aos": "^2.3.4",

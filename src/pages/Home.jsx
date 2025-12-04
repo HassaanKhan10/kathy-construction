@@ -5,7 +5,7 @@ function Home() {
     return (
         <>
             <section className="hero-section d-flex align-items-center position-relative overflow-hidden">
-                <div className="bg-overly w-100 h-100 position-absolute top-0 start-0 z-1 pe-none" />
+                <div className="hero-bg-overly w-100 h-100 position-absolute top-0 start-0 z-1 pe-none" />
                 <img data-aos-duration="1000" data-aos="zoom-out-up"
                     className="w-100 h-100 object-fit-cover object-position position-absolute top-0 start-0 pe-none"
                     src="/assets/images/hero-2.png"

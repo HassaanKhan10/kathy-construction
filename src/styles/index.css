@@ -4,10 +4,10 @@
     z-index: 999;
 }
 
-.nav-section .container {
-    padding: 0;
-    border-radius: 10px;
-    background: #12121290;
+.nav-section .container{
+    border-radius: 100px;
+    border: 1px solid #e7e7e7;
+    background: #ffffff;
     backdrop-filter: blur(24px);
     transition: transform 0.2s ease, color 0.2s linear;
     box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
@@ -83,7 +83,7 @@
 
 .nav-section .navbar-brand img,
 .footer-logo img {
-    max-width: 100px;
+    max-width: 85px;
 }
 
 .nav-section .mail-icon-wrapper {
@@ -132,7 +132,7 @@
 }
 
 .inner-page-header {
-    padding: 170px 0 80px 0;
+    padding: 200px 0 50px 0;
 }
 
 

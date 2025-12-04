@@ -12,41 +12,37 @@ function NavbarSection() {
     >
       <Container className="py-2 py-lg-0">
         <Navbar expand="lg" collapseOnSelect className="py-0">
-          {/* Logo */}
           <Navbar.Brand as={Link} to="/" className="me-0 px-3">
             <img src="assets/images/logo.png" alt="logo" />
           </Navbar.Brand>
 
-          {/* Toggler */}
           <Navbar.Toggle aria-controls="main-navbar" />
 
-          {/* Menu Items */}
           <Navbar.Collapse id="main-navbar" className="justify-content-end">
-            <Nav className="px-lg-4 py-3 pb-0 py-lg-0">
-              <Nav.Link as={Link} to="/" className="home-nav text-grey text-hover-white">
+            <Nav className="px-lg-4 py-3 pb-0 py-lg-0 justify-content-center">
+              <Nav.Link as={Link} to="/" className="text-dark">
                 Home
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/about.jsx" className="text-grey text-hover-white">
+              <Nav.Link as={Link} to="/about" className="text-dark">
                 About us
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/services.jsx" className="text-grey text-hover-white">
+              <Nav.Link as={Link} to="/services" className="text-dark">
                 Services
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/gallery.jsx" className="text-grey text-hover-white">
+              <Nav.Link as={Link} to="/gallery" className="text-dark">
                 Gallery
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/faq.jsx" className="text-grey text-hover-white">
+              <Nav.Link as={Link} to="/faq" className="text-dark">
                 FAQ
               </Nav.Link>
             </Nav>
 
-            {/* Button */}
-            <div className="d-flex align-items-center ms-lg-3">
-              <Link to="/contact.jsx" className="btn btn-primary me-3">
+            <div className="d-flex align-items-center">
+              <Link to="/contact" className="btn btn-primary">
                 Get a Quote
               </Link>
             </div>

@@ -33,11 +33,11 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About.jsx" element={<About />} />
-          <Route path="/Services.jsx" element={<Services />} />
-          <Route path="/Gallery.jsx" element={<Gallery />} />
-          <Route path="/Faq.jsx" element={<Faq />} />
-          <Route path="/Contact.jsx" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
 
         <FooterSection />

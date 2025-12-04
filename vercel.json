@@ -10,6 +10,7 @@
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/app.jsx" }
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
+

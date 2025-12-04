@@ -47,7 +47,7 @@ function NavbarSection() {
             {/* Button */}
             <div className="d-flex align-items-center ms-lg-3">
               <Link to="/contact.jsx" className="btn btn-primary me-3">
-                Contact Us
+                Get a Quote
               </Link>
             </div>
           </Navbar.Collapse>

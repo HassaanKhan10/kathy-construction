@@ -4,7 +4,7 @@
     z-index: 999;
 }
 
-.nav-section .container{
+.nav-section .container {
     border-radius: 100px;
     border: 1px solid #e7e7e7;
     background: #ffffff;
@@ -454,6 +454,23 @@ textarea.custom-form-control {
 }
 
 @media screen and (max-width: 991.97px) {
+    .nav-section .container {
+        border-radius: 0;
+        border: none;
+        background: transparent;
+        backdrop-filter: none;
+        transition: transform 0.2s ease, color 0.2s linear;
+        box-shadow: none;
+    }
+
+    .nav-section {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        border: 1px solid #e7e7e7;
+        background: #ffffff;
+        box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);
+    }
+
     .nav-section .navbar-nav {
         border: none;
     }

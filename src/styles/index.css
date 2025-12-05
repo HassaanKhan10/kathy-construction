@@ -161,7 +161,13 @@
     border-color: #dee2e6 !important;
 }
 
+.accordion-button::after {
+    background: url(/assets/images/chevron-down.svg) no-repeat center center;
+}
 
+.accordion-button:not(.collapsed)::after {
+    background: url(/assets/images/chevron-down.svg) no-repeat center center;
+}
 
 
 .accordion-lg .accordion-button,

@@ -41,7 +41,7 @@ function FooterSection() {
                   <ul className="footer-nav list-unstyled d-flex flex-wrap align-items-center justify-content-center justify-content-xl-end gap-4 m-0 p-0">
                     <li className="nav-item">
                       <a
-                        href=""
+                        href="/about"
                         className="d-flex align-items-center gap-2 py-1"
                       >
                         <i className="fa-solid fa-phone" />
@@ -50,7 +50,7 @@ function FooterSection() {
                     </li>
                     <li className="nav-item">
                       <a
-                        href=""
+                        href="/services"
                         className="d-flex align-items-center gap-2 py-1"
                       >
                         <i className="fa-solid fa-phone" />
@@ -59,7 +59,7 @@ function FooterSection() {
                     </li>
                     <li className="nav-item">
                       <a
-                        href="tel: +92 318-2011060"
+                        href="/gallery"
                         className="d-flex align-items-center gap-2 py-1"
                       >
                         <i className="fa-solid fa-phone" />
@@ -68,7 +68,7 @@ function FooterSection() {
                     </li>
                     <li className="nav-item">
                       <a
-                        href=""
+                        href="/faq"
                         className="d-flex align-items-center gap-2 py-1"
                       >
                         <i className="fa-solid fa-phone" />

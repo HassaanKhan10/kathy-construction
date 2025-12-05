@@ -20,23 +20,23 @@ function NavbarSection() {
 
           <Navbar.Collapse id="main-navbar" className="justify-content-end">
             <Nav className="px-lg-4 py-3 pb-0 py-lg-0 justify-content-center">
-              <Nav.Link as={Link} to="/" className="text-dark">
+              <Nav.Link as={Link} to="/" >
                 Home
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/about" className="text-dark">
+              <Nav.Link as={Link} to="/about" >
                 About us
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/services" className="text-dark">
+              <Nav.Link as={Link} to="/services" >
                 Services
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/gallery" className="text-dark">
+              <Nav.Link as={Link} to="/gallery" >
                 Gallery
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/faq" className="text-dark">
+              <Nav.Link as={Link} to="/faq" >
                 FAQ
               </Nav.Link>
             </Nav>

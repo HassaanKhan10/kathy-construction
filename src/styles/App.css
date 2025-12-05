@@ -8,7 +8,7 @@ body {
 :root {
     --dark: #121212;
     --primary: #FED403;
-    --secondary: #9b9b9b;
+    --secondary: #333333;
 
     --danger: #e02419;
 
@@ -116,7 +116,7 @@ h6,
     font-weight: 600;
     line-height: normal;
     border: none;
-    border-radius: 100px;
+    border-radius: 100px !important;
     white-space: nowrap;
     transition: all 0.25s ease;
 }
@@ -176,13 +176,13 @@ h6,
     color: var(--dark);
 }
 
-.btn.btn-warning:hover {
-    background-color: #ffd408;
+.badge {
     color: var(--primary);
 }
 
-.badge {
-    color: var(--primary);
+.border-left-primary {
+    border-left: 4px solid var(--primary);
+    padding-left: 16px;
 }
 
 .fs-12 {

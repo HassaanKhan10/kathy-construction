@@ -154,7 +154,7 @@ const HeroSlider = () => {
             </Swiper>
 
             <div className="d-flex justify-content-center mt-5">
-              <a href="" className="btn btn-primary bg-dark text-white">
+              <a href="/services" className="btn btn-primary bg-dark text-white">
                 Explore Services
               </a>
             </div>

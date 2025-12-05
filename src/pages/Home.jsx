@@ -20,10 +20,10 @@ function Home() {
                                 Services Built for Safety, Stability, and Long-Term Performance.
                             </p>
                             <div className="d-flex flex-wrap gap-4 mt-5">
-                                <a href="#about-us" className="btn btn-primary">
+                                <a href="/services" className="btn btn-primary">
                                     Our Services
                                 </a>
-                                <a href="#contact" className="btn btn-secondary">
+                                <a href="/contact" className="btn btn-secondary">
                                     Contact us
                                 </a>
                             </div>
@@ -46,7 +46,7 @@ function Home() {
                             </h2>
                             <a
                                 className="btn btn-sm btn-secondary mt-4"
-                                href="#experience-section"
+                                href="/about"
                             >
                                 Learn more
                             </a>

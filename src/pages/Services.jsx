@@ -5,7 +5,7 @@ function Services() {
   return (
     <>
       <section className="inner-page-header position-relative overflow-hidden">
-        <img data-aos-duration="1000" data-aos="zoom-out-up" className="absolute-bg object-fit-cover" src="assets/images/card-1.png" />
+        <img data-aos-duration="1000" data-aos="zoom-out-up" className="absolute-bg object-fit-cover" src="assets/images/6.png" />
         <div className="bg-overly w-100 h-100 position-absolute top-0 start-0 pe-none" />
         <div className="container">
           <div className="row">
@@ -16,12 +16,12 @@ function Services() {
         </div>
       </section>
 
-      <section className="experience-section py-100" id="experience-section">
+      <section className="experience-section py-100" >
         <div className="container">
           <div className="row align-items-center">
             <div data-aos-duration={600} data-aos="fade-right" className="col-12 col-lg-6 pe-lg-5 ">
               <div className="img-wrapper ratio-4x3">
-                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/card-1.png" alt="truck-image" />
+                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/2.png"  />
               </div>
             </div>
             <div data-aos-duration={1000} data-aos="fade-left" className="col-12 col-lg-6 ps-lg-5 pt-5 ">
@@ -38,7 +38,7 @@ function Services() {
       </section>
 
 
-      <section className="experience-section py-100" id="experience-section">
+      <section className="experience-section py-100" >
         <div className="container">
           <div className="row align-items-center">
             <div data-aos-duration={1000} data-aos="fade-left" className="col-12 col-lg-6 pe-lg-5">
@@ -53,19 +53,19 @@ function Services() {
 
             <div data-aos-duration={1000} data-aos="fade-right" className="col-12 col-lg-6 ps-lg-5 pt-5">
               <div className="img-wrapper ratio-4x3">
-                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/card-1.png" alt="truck-image" />
+                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/3.png"  />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="experience-section py-100" id="experience-section">
+      <section className="experience-section py-100" >
         <div className="container">
           <div className="row align-items-center">
             <div data-aos-duration={1000} data-aos="fade-right" className="col-12 col-lg-6 pe-lg-5 ">
               <div className="img-wrapper ratio-4x3">
-                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/card-1.png" alt="truck-image" />
+                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/4.png"  />
               </div>
             </div>
             <div data-aos-duration={1000} data-aos="fade-left" className="col-12 col-lg-6 ps-lg-5 pt-5 ">
@@ -81,7 +81,7 @@ function Services() {
         </div>
       </section>
 
-      <section className="experience-section py-100" id="experience-section">
+      <section className="experience-section py-100" >
         <div className="container">
           <div className="row align-items-center">
             <div data-aos-duration={1000} data-aos="fade-left" className="col-12 col-lg-6 pe-lg-5">
@@ -96,19 +96,19 @@ function Services() {
 
             <div data-aos-duration={1000} data-aos="fade-right" className="col-12 col-lg-6 ps-lg-5 pt-5">
               <div className="img-wrapper ratio-4x3">
-                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/card-1.png" alt="truck-image" />
+                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/7.png"  />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="experience-section py-100" id="experience-section">
+      <section className="experience-section py-100" >
         <div className="container">
           <div className="row align-items-center">
             <div data-aos-duration={1000} data-aos="fade-right" className="col-12 col-lg-6 pe-lg-5 ">
               <div className="img-wrapper ratio-4x3">
-                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/card-1.png" alt="truck-image" />
+                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/8.png"  />
               </div>
             </div>
             <div data-aos-duration={1000} data-aos="fade-left" className="col-12 col-lg-6 ps-lg-5 pt-5 ">
@@ -125,7 +125,7 @@ function Services() {
       </section>
 
 
-      <section className="experience-section py-100" id="experience-section">
+      <section className="experience-section py-100" >
         <div className="container">
           <div className="row align-items-center">
             <div data-aos-duration={1000} data-aos="fade-left" className="col-12 col-lg-6 pe-lg-5">
@@ -140,19 +140,19 @@ function Services() {
 
             <div data-aos-duration={600} data-aos="fade-right" className="col-12 col-lg-6 ps-lg-5 pt-5">
               <div className="img-wrapper ratio-4x3">
-                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/card-1.png" alt="truck-image" />
+                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/9.png"  />
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="experience-section py-100" id="experience-section">
+      <section className="experience-section py-100" >
         <div className="container">
           <div className="row align-items-center">
             <div data-aos-duration={1000} data-aos="fade-right" className="col-12 col-lg-6 pe-lg-5 ">
               <div className="img-wrapper ratio-4x3">
-                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/card-1.png" alt="truck-image" />
+                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/card-1.png"  />
               </div>
             </div>
             <div data-aos-duration={1000} data-aos="fade-left" className="col-12 col-lg-6 ps-lg-5 pt-5 ">
@@ -168,7 +168,7 @@ function Services() {
         </div>
       </section>
 
-      <section className="experience-section py-100" id="experience-section">
+      <section className="experience-section py-100" >
         <div className="container">
           <div className="row align-items-center">
             <div data-aos-duration={1000} data-aos="fade-left" className="col-12 col-lg-6 pe-lg-5">
@@ -183,7 +183,7 @@ function Services() {
 
             <div data-aos-duration={1000} data-aos="fade-right" className="col-12 col-lg-6 ps-lg-5 pt-5">
               <div className="img-wrapper ratio-4x3">
-                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/card-1.png" alt="truck-image" />
+                <img className="w-100 h-100 object-fit-cover position-absolute top-0 start-0" src="assets/images/5.png"  />
               </div>
             </div>
           </div>

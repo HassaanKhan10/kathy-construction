@@ -13,7 +13,7 @@ function Gallery() {
           data-aos-duration="1000"
           data-aos="zoom-out-up"
           className="absolute-bg object-fit-cover"
-          src="assets/images/card-1.png"
+          src="assets/images/9.png"
         />
         <div className="bg-overly w-100 h-100 position-absolute top-0 start-0 pe-none" />
         <div className="container">
@@ -38,51 +38,78 @@ function Gallery() {
               <div ref={fancyboxRef} className="fancybox-gallery d-grid grid-cols-3 gap-2">
 
                 <a data-fancybox="gallery"
-                  href="/assets/images/card-1.png"
-                  data-caption="Installation Work 1">
-                  <img src="/assets/images/card-1.png" alt="Installation Work 1" />
+                  href="/assets/images/2.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/2.png" alt="gallery-image" />
                 </a>
 
                 <a data-fancybox="gallery"
-                  href="/assets/images/card-2.png"
-                  data-caption="Installation Work 2">
-                  <img src="/assets/images/card-2.png" alt="Installation Work 2" />
+                  href="/assets/images/3.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/3.png" alt="gallery-image" />
                 </a>
 
                 <a data-fancybox="gallery"
-                  href="/assets/images/card-3.png"
-                  data-caption="Installation Work 3">
-                  <img src="/assets/images/card-3.png" alt="Installation Work 3" />
+                  href="/assets/images/4.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/4.png" alt="gallery-image" />
                 </a>
 
                 <a data-fancybox="gallery"
-                  href="/assets/images/card-4.png"
-                  data-caption="Installation Work 4">
-                  <img src="/assets/images/card-4.png" alt="Installation Work 4" />
+                  href="/assets/images/5.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/5.png" alt="gallery-image" />
                 </a>
 
                 <a data-fancybox="gallery"
-                  href="/assets/images/hero-2.png"
-                  data-caption="Hero Section Image 2">
-                  <img src="/assets/images/hero-2.png" alt="Hero Section Image 2" />
+                  href="/assets/images/6.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/6.png" alt="gallery-image" />
+                </a>
+
+
+                <a data-fancybox="gallery"
+                  href="/assets/images/7.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/7.png" alt="gallery-image" />
                 </a>
 
                 <a data-fancybox="gallery"
-                  href="/assets/images/hero-3.png"
-                  data-caption="Hero Section Image 3">
-                  <img src="/assets/images/hero-3.png" alt="Hero Section Image 3" />
+                  href="/assets/images/8.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/8.png" alt="gallery-image" />
+                </a>
+
+
+                <a data-fancybox="gallery"
+                  href="/assets/images/9.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/9.png" alt="gallery-image" />
+                </a>
+
+
+                <a data-fancybox="gallery"
+                  href="/assets/images/2.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/card-1.png" alt="gallery-image" />
                 </a>
 
                 <a data-fancybox="gallery"
-                  href="/assets/images/hero-4.png"
-                  data-caption="Hero Section Image 4">
-                  <img src="/assets/images/hero-4.png" alt="Hero Section Image 4" />
+                  href="/assets/images/2.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/hero-section-image.png" alt="gallery-image" />
                 </a>
 
                 <a data-fancybox="gallery"
-                  href="/assets/images/hero-section-image.png"
-                  data-caption="Hero Main Image">
-                  <img src="/assets/images/hero-section-image.png" alt="Hero Main Image" />
+                  href="/assets/images/2.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/hero-2.png" alt="gallery-image" />
+                </a>
+
+                <a data-fancybox="gallery"
+                  href="/assets/images/1.png"
+                  data-caption="A house finally brought to life.">
+                  <img src="/assets/images/1.png" alt="gallery-image" />
                 </a>
 
               </div>

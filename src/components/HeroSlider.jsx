@@ -39,7 +39,7 @@ const HeroSlider = () => {
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
                       <img
                         className="position-absolute w-100 h-100 object-fit-cover"
-                        src="/assets/images/card-1.png"
+                        src="/assets/images/2.png"
                         alt="Card-image"
                       />
                     </div>
@@ -56,7 +56,7 @@ const HeroSlider = () => {
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
                       <img
                         className="position-absolute w-100 h-100 object-fit-cover"
-                        src="/assets/images/card-2.png"
+                        src="/assets/images/3.png"
                         alt="Card-image"
                       />
                     </div>
@@ -73,7 +73,7 @@ const HeroSlider = () => {
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
                       <img
                         className="position-absolute w-100 h-100 object-fit-cover"
-                        src="/assets/images/card-3.png"
+                        src="/assets/images/4.png"
                         alt="Card-image"
                       />
                     </div>
@@ -90,7 +90,7 @@ const HeroSlider = () => {
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
                       <img
                         className="position-absolute w-100 h-100 object-fit-cover"
-                        src="/assets/images/card-4.png"
+                        src="/assets/images/5.png"
                         alt="Card-image"
                       />
                     </div>
@@ -107,7 +107,7 @@ const HeroSlider = () => {
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
                       <img
                         className="position-absolute w-100 h-100 object-fit-cover"
-                        src="/assets/images/card-2.png"
+                        src="/assets/images/6.png"
                         alt="Card-image"
                       />
                     </div>
@@ -124,7 +124,7 @@ const HeroSlider = () => {
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
                       <img
                         className="position-absolute w-100 h-100 object-fit-cover"
-                        src="/assets/images/card-2.png"
+                        src="/assets/images/7.png"
                         alt="Card-image"
                       />
                     </div>
@@ -141,7 +141,7 @@ const HeroSlider = () => {
                     <div className="img-wrapper ratio-9x16 overflow-hidden">
                       <img
                         className="position-absolute w-100 h-100 object-fit-cover"
-                        src="/assets/images/card-4.png"
+                        src="/assets/images/8.png"
                         alt="Card-image"
                       />
                     </div>

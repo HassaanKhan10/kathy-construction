@@ -533,6 +533,11 @@ textarea.custom-form-control {
         padding-right: 0;
     }
 
+    .nav-section .navbar-brand img,
+    .footer-logo img {
+        max-width: 65px;
+    }
+
     .hero-section {
         padding-top: 200px;
         padding-bottom: 120px;

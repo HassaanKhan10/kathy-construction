@@ -12,11 +12,11 @@ function NavbarSection() {
     >
       <Container className="py-2 py-lg-0">
         <Navbar expand="lg" collapseOnSelect className="py-0">
-          <Navbar.Brand as={Link} to="/" className="me-0 px-3">
+          <Navbar.Brand as={Link} to="/" className="me-0">
             <img src="assets/images/logo.png" alt="logo" />
           </Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="main-navbar" />
+          <Navbar.Toggle aria-controls="main-navbar" className="border-0 p-0" />
 
           <Navbar.Collapse id="main-navbar" className="justify-content-end">
             <Nav className="px-lg-4 py-3 pb-0 py-lg-0 justify-content-center">

@@ -313,8 +313,7 @@ h6,
 }
 
 .ratio-1x1 {
-    padding-bottom: 100%;
-    position: relative;
+    aspect-ratio: 1 / 1;
 }
 
 .ratio-4x3 {

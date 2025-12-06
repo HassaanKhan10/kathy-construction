@@ -35,7 +35,7 @@ export default function ContactForm() {
   return (
     <section className="form-section py-100 position-relative">
       <div className="container position-relative z-2">
-        <div className="row flex-wrap-reverse justify-content-between">
+        <div className="row row-gap-5 flex-wrap-reverse justify-content-between">
           <div className='col-12 col-lg-6'>
             <iframe
               title="map"
